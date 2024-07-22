@@ -1,0 +1,154 @@
+/* Name: Your dayien joseph
+   Student Number: 8976009
+*/
+
+/* Importing the normalize.css file  */
+@import url('normalize.css');
+
+/* Applying basic styles to multiple elements  */
+body, html, h1, p, .classname, #idname {
+    
+}
+
+/* Setting styles for the root HTML element */
+html {
+    font: 20px/1.5 'Arial', sans-serif; /* Setting font properties */
+    background-color: #f0f0f0; /* Setting background color */
+}
+
+/* Setting maximum width for the body and centering it */
+body {
+    max-width: 1200px; /* Maximum width in pixels */
+    margin: 0 auto; /* Centering the content */
+    padding: 1rem; /* Padding inside the body */
+    border: 1px solid #ccc; /* Border around the body */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Layout: Float main and aside elements to be side by side */
+#main, #aside {
+    float: left; /* Floating elements to the left */
+    padding: 1rem; /* Padding inside the elements */
+}
+
+#main {
+    width: 70%; /* Main section takes 70% of the width */
+}
+
+#aside {
+    width: 30%; /* Aside section takes 30% of the width */
+}
+
+/* confirming the footer clears the floated elements */
+footer {
+    clear: both;
+}
+
+/* Styling the header */
+header h1 {
+    font-size: 3rem; /* Increasing font size */
+}
+
+/* Styling the footer */
+footer {
+    font-size: 0.8rem; /* Decreasing font size */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Adding a gradient background */
+}
+
+/* Styling main elements */
+main h2, main h3 {
+    font-variant: small-caps; /* Using small-caps for font variant */
+    font-style: italic; /* Using italic font style */
+    font-weight: bold; /* Making font bold */
+    font-family: 'Georgia', serif; /* Setting font family */
+    color: #333; /* Setting font color */
+    text-align: center; /* Centering the text */
+}
+
+/* Styling blockquotes */
+main q {
+    font-variant: normal;
+    font-style: oblique; /* Using oblique font style */
+    font-weight: 700; /* Setting font weight */
+    font-family: 'Courier New', Courier, monospace; /* Setting font family */
+    color: #555; /* Setting font color */
+    border: 2px solid #ddd; /* Adding a border */
+    box-shadow: 0 0 5px #aaa; /* Adding a box shadow */
+}
+
+/* Styling figures and images */
+figure, img, video {
+    border: 1px solid #ddd; /* Adding a border */
+    border-radius: 8px; /* Adding rounded corners */
+    background-color: #f9f9f9; /* Setting background color */
+}
+
+/* Styling figcaptions */
+figcaption {
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #666; /* Setting font color */
+}
+
+/* Styling iframes */
+iframe {
+    border: 2px solid #ccc; /* Adding a border */
+}
+
+/* Styling aside elements */
+aside h2, aside h3 {
+    font-variant: small-caps;
+    color: #333;
+    text-align: center; /* Centering the text */
+}
+
+/* Removing bullets and adding styles to links in aside */
+aside ul {
+    list-style: none; /* Removing bullet points */
+    padding: 0; /* Removing padding */
+}
+
+aside ul li a {
+    text-decoration: none; /* Removing text decoration */
+    color: #555; /* Setting link color */
+    line-height: 1.8; /* Increasing line height */
+}
+
+aside ul li a:hover {
+    color: #000; /* Changing color on hover */
+}
+
+/* Styling form labels */
+form label {
+    color: #444;
+    font-variant: normal;
+    font-weight: 600;
+    display: block; /* Displaying as block element */
+}
+
+/* Styling form input controls */
+form input {
+    width: 100%; /* Full width */
+    height: 2rem; /* Height of the input */
+}
+
+/* Responsive CSS: Adjusting styles for smaller screens */
+@media (max-width: 768px) {
+    html {
+        font-size: 16px; /* Reducing font size */
+    }
+
+    #main, #aside {
+        float: none; /* Removing floats */
+        width: 100%; /* Full width */
+    }
+
+    body {
+        padding: 0.5rem; /* Reducing padding size */
+    }
+}
